@@ -10,9 +10,8 @@
         }
     ],
     "require": {
-        "php": ">=5.4",
         "symfony/console": "~2.6|3",
-        "umpirsky/centipede-crawler": "~0.1"
+        "umpirsky/centipede-crawler": "dev-master"
     },
     "require-dev": {
         "phpspec/phpspec": "~2.0"
