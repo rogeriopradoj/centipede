@@ -33,3 +33,30 @@ What is the simplest test you can think of for your web application? Maybe just 
 ## Screenshot
 
 ![Centipede](https://raw.githubusercontent.com/umpirsky/centipede/master/resources/images/screenshot.png)
+
+## Create a phar
+
+First, make sure you have https://github.com/box-project/box2 installed in your system.
+
+Then, install all dependencies:
+
+```shell
+cd <path-to-this-project>
+composer install
+```
+
+Finally, build the phar:
+
+```shell
+box build
+```
+
+`centipede.phar` will be available inside `bin/` directory.
+
+### Install globally
+
+```shell
+mv bin/centipede.phar /usr/local/bin/centipede
+```
+
+This way, `centipede` will be available on your terminal.

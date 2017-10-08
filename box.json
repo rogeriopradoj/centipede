@@ -1,0 +1,17 @@
+{
+    "alias": "centipede.phar",
+    "main": "bin/centipede",
+    "output": "bin/centipede.phar",
+    "stub": true,
+    "directories": [ "src", "vendor" ],
+    "files": [
+        "LICENSE"
+    ],
+    "compression": "GZ",
+    "compactors": [
+        "Herrera\\Box\\Compactor\\Json",
+        "Herrera\\Box\\Compactor\\Php"
+    ],
+    "chmod": "0755",
+    "algorithm": "SHA1"
+}
